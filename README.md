@@ -1,22 +1,17 @@
-"""
-Projet : Tableau de bord de gestion des ventes immobilières
+
+# Projet : Tableau de bord de gestion des ventes immobilières
 Méthodologie : GIMSI
 Outil BI : Microsoft Power BI
 
 Ce script génère automatiquement un fichier README.md complet
 pour un dépôt GitHub académique / professionnel.
 
-Sources méthodologiques :
-- Berland, N. (2014). Contrôle de gestion. La Découverte.
-- Kaplan & Norton (1996). The Balanced Scorecard. Harvard Business School Press.
-- Few, S. (2013). Information Dashboard Design. O’Reilly Media.
-- Microsoft Power BI Documentation.
-"""
 
-README_CONTENT = """
-# 📊 Tableau de bord de gestion des ventes immobilières – Méthodologie GIMSI
 
-## 🧩 Présentation du projet
+
+#  Tableau de bord de gestion des ventes immobilières – Méthodologie GIMSI
+
+##  Présentation du projet
 
 Ce projet vise à concevoir un **tableau de bord décisionnel** pour une entreprise spécialisée dans la vente de biens immobiliers, en utilisant la **méthodologie GIMSI (Génération d’Indicateurs pour le Management par un Système d’Information)** et l’outil **Microsoft Power BI**.
 
@@ -24,7 +19,7 @@ Le tableau de bord permet de suivre la performance commerciale, d’analyser les
 
 ---
 
-## 🎯 Objectif stratégique
+##  Objectif stratégique
 
 **Augmenter les bénéfices de 5 % chaque année pendant 5 ans**
 
@@ -62,7 +57,7 @@ Cette méthodologie garantit l’alignement entre stratégie, indicateurs et dé
 ---
 
 ## 🗂️ Données utilisées
-
+#
 Source principale :
 - `Projet_TB_cc.xlsx`
 
@@ -75,10 +70,13 @@ Source principale :
   - Représentant
   - Garage
 
----
+# Technologies utilisées
 
-## 🧮 Exemples de mesures DAX
+- Microsoft Power BI Desktop
 
-### Chiffre d’affaires
-```DAX
-ChiffreAffaires = SUM(Bdd[Prix Vente])
+- Microsoft Excel
+
+- DAX (Data Analysis Expressions)
+
+- Modélisation en étoile (Star Schema)
+
