@@ -56,7 +56,7 @@ Cette méthodologie garantit l’alignement entre stratégie, indicateurs et dé
 
 ---
 
-## 🗂️ Données utilisées
+##  Données utilisées
 #
 Source principale :
 - `Projet_TB_cc.xlsx`
@@ -69,14 +69,13 @@ Source principale :
   - Type de bien (Maison / Appartement)
   - Représentant
   - Garage
-
+---
 # Technologies utilisées
-
 - Microsoft Power BI Desktop
 
 - Microsoft Excel
 
 - DAX (Data Analysis Expressions)
-
+  
 - Modélisation en étoile (Star Schema)
 
